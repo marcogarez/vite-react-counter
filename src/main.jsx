@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { FirstApp } from './FirstApp';
 import './styles.css';
 
-ReactDOM.createRoot( document.getElementById('root') ).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp />
+        <FirstApp title='Un titulo' subTitle='Un texto' number={123} />
     </React.StrictMode>
 );

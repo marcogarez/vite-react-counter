@@ -5,6 +5,6 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp title='Un titulo' subTitle='Un texto' number={123} />
+        <FirstApp title='a title' subTitle={1} />
     </React.StrictMode>
 );
